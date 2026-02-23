@@ -129,7 +129,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // @grafana/alerting-backend
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // @grafana/alerting-backend
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // @grafana/grafana-operator-experience-squad
-	github.com/oapi-codegen/oapi-codegen/v2 v2.3.0 // @grafana/grafana-as-code
+	github.com/oapi-codegen/oapi-codegen/v2 v2.5.1 // @grafana/grafana-as-code
 	github.com/oklog/ulid/v2 v2.1.0 // @grafana/identity-access-team
 	github.com/olekukonko/tablewriter v0.0.5 // @grafana/grafana-backend-group
 	github.com/openfga/api/proto v0.0.0-20240529184453-5b0b4941f3e0 // @grafana/identity-access-team
@@ -147,7 +147,7 @@ require (
 	github.com/spf13/cobra v1.8.1 // @grafana/grafana-app-platform-squad
 	github.com/spf13/pflag v1.0.5 // @grafana-app-platform-squad
 	github.com/spyzhov/ajson v0.9.0 // @grafana/grafana-app-platform-squad
-	github.com/stretchr/testify v1.9.0 // @grafana/grafana-backend-group
+	github.com/stretchr/testify v1.11.1 // @grafana/grafana-backend-group
 	github.com/teris-io/shortid v0.0.0-20171029131806-771a37caa5cf // @grafana/grafana-backend-group
 	github.com/ua-parser/uap-go v0.0.0-20211112212520-00c877edfe0f // @grafana/grafana-backend-group
 	github.com/urfave/cli v1.22.15 // indirect; @grafana/grafana-backend-group
@@ -172,13 +172,13 @@ require (
 	gocloud.dev v0.39.0 // @grafana/grafana-app-platform-squad
 	golang.org/x/crypto v0.27.0 // @grafana/grafana-backend-group
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa // @grafana/alerting-backend
-	golang.org/x/mod v0.20.0 // indirect; @grafana/grafana-backend-group
+	golang.org/x/mod v0.21.0 // indirect; @grafana/grafana-backend-group
 	golang.org/x/net v0.29.0 // @grafana/oss-big-tent @grafana/partner-datasources
 	golang.org/x/oauth2 v0.23.0 // @grafana/identity-access-team
-	golang.org/x/sync v0.8.0 // @grafana/alerting-backend
-	golang.org/x/text v0.18.0 // @grafana/grafana-backend-group
+	golang.org/x/sync v0.9.0 // @grafana/alerting-backend
+	golang.org/x/text v0.20.0 // @grafana/grafana-backend-group
 	golang.org/x/time v0.6.0 // @grafana/grafana-backend-group
-	golang.org/x/tools v0.24.0 // @grafana/grafana-as-code
+	golang.org/x/tools v0.25.1 // @grafana/grafana-as-code
 	gonum.org/v1/gonum v0.14.0 // @grafana/observability-metrics
 	google.golang.org/api v0.191.0 // @grafana/grafana-backend-group
 	google.golang.org/grpc v1.66.0 // @grafana/plugins-platform-backend
@@ -316,7 +316,6 @@ require (
 	github.com/imdario/mergo v0.3.16 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/invopop/jsonschema v0.12.0 // indirect
-	github.com/invopop/yaml v0.3.1 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect
 	github.com/jackc/pgx/v5 v5.5.5 // indirect
@@ -468,7 +467,7 @@ require (
 )
 
 require (
-	github.com/getkin/kin-openapi v0.127.0 // @grafana/grafana-app-platform-squad
+	github.com/getkin/kin-openapi v0.133.0 // @grafana/grafana-app-platform-squad
 	github.com/grafana/grafana/apps/playlist v0.0.0-20240917082838-e2bce38a7990 // @grafana/grafana-app-platform-squad
 )
 
@@ -478,13 +477,20 @@ require (
 	cloud.google.com/go/longrunning v0.5.12 // indirect
 	github.com/at-wat/mqtt-go v0.19.4 // indirect
 	github.com/dolthub/maphash v0.1.0 // indirect
+	github.com/dprotaso/go-yit v0.0.0-20220510233725-9ba8df137936 // indirect
 	github.com/gammazero/deque v0.2.1 // indirect
 	github.com/grafana/grafana-app-sdk v0.19.0 // indirect
 	github.com/grafana/grafana/pkg/semconv v0.0.0-20240808213237-f4d2e064f435 // indirect
 	github.com/grafana/sqlds/v4 v4.1.0 // indirect
 	github.com/maypok86/otter v1.2.2 // indirect
+	github.com/oasdiff/yaml v0.0.0-20250309154309-f31be36b4037 // indirect
+	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
 	github.com/shadowspore/fossil-delta v0.0.0-20240102155221-e3a8590b820b // indirect
+	github.com/speakeasy-api/jsonpath v0.6.0 // indirect
+	github.com/speakeasy-api/openapi-overlay v0.10.2 // indirect
+	github.com/vmware-labs/yaml-jsonpath v0.3.2 // indirect
+	github.com/woodsbury/decimal128 v1.3.0 // indirect
 )
 
 // Use fork of crewjam/saml with fixes for some issues until changes get merged into upstream
